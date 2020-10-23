@@ -1,0 +1,36 @@
+@import "modules";
+
+:root {
+  --transition-duration: 250ms;
+  --transition-timing-function: ease-in-out;
+}
+
+* + * {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-family-base);
+  font-size: var(--font-base-size);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--color-aoeu-link);
+  text-decoration: none;
+  @include smooth-transitions;
+
+  &:hover {
+    color: var(--color-aoeu-link-hover);
+  }
+}
+
+p {
+  color: var(--color-aoeu-block-text);
+  font-family: "chaparral-pro", Georgia, serif;
+  line-height: 1.8;
+}
