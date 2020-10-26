@@ -1,0 +1,28 @@
+header {
+  background: var(--color-aoeu-blue);
+  padding: 2rem;
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .aoeu-logo {
+    height: 3.875rem;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

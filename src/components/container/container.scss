@@ -1,0 +1,9 @@
+.container {
+  margin: 0 auto;
+}
+
+@media (min-width: 64rem) {
+  .container {
+    max-width: 64rem;
+  }
+}

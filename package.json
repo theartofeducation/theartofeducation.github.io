@@ -1,0 +1,44 @@
+{
+  "name": "theartofeducation.github.io",
+  "private": true,
+  "description": "The Art of Education University Software Engineering Portal",
+  "version": "0.0.1",
+  "author": "The Art of Education University Software Engineering Team",
+  "dependencies": {
+    "clsx": "^1.1.1",
+    "gatsby": "^2.24.79",
+    "gatsby-image": "^2.4.21",
+    "gatsby-plugin-intl": "^0.3.3",
+    "gatsby-plugin-manifest": "^2.4.34",
+    "gatsby-plugin-offline": "^3.2.33",
+    "gatsby-plugin-react-helmet": "^3.3.14",
+    "gatsby-plugin-sass": "^2.3.20",
+    "gatsby-plugin-sharp": "^2.6.42",
+    "gatsby-source-filesystem": "^2.3.34",
+    "gatsby-transformer-sharp": "^2.5.17",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "yarn run clean && yarn run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theartofeducation/theartofeducation.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/theartofeducation/theartofeducation.github.io/issues"
+  }
+}
