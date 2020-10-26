@@ -5,6 +5,7 @@ import { FormattedMessage, useIntl } from "gatsby-plugin-intl"
 import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
+import { ExternalLink } from "../components/external-link"
 import { Container } from "../components/container"
 import { List, ListItem } from "../components/list"
 import { Svg } from "../components/svgs"
@@ -24,9 +25,9 @@ const IndexPage = () => {
               id="pages.index.intro-paragraph-1"
               values={{
                 siteLink: (
-                  <a href="https://theartofeducation.edu" target="_blank" rel="noreferrer">
+                  <ExternalLink url="https://theartofeducation.edu">
                     {intl.formatMessage({ id: "pages.index.site-link-text" })}
-                  </a>
+                  </ExternalLink>
                 )
               }} />
           </p>
@@ -41,14 +42,14 @@ const IndexPage = () => {
               <footer>
                 <List orientation="right">
                   <ListItem>
-                    <a href="https://github.com/theartofeducation/aoeu-react-components" target="_blank" rel="noreferrer">
+                    <ExternalLink url="https://github.com/theartofeducation/aoeu-react-components">
                       <Svg symbolId="github-icon" className="link-icon" />
-                    </a>
+                    </ExternalLink>
                   </ListItem>
                   <ListItem>
-                    <a href="https://theartofeducation.github.io/aoeu-react-components" target="_blank" rel="noreferrer">
+                    <ExternalLink url="https://theartofeducation.github.io/aoeu-react-components">
                       <Svg symbolId="external-link-icon" className="link-icon" />
-                    </a>
+                    </ExternalLink>
                   </ListItem>
                 </List>
               </footer>
