@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types"
 import clsx from "clsx"
 
 export const Svgs = () => (
@@ -49,3 +50,8 @@ export const Svg = ({ symbolId, className }) => (
     <use xlinkHref={ `#${symbolId}` } />
   </svg>
 )
+
+Svg.propTypes = {
+  symbolId: PropTypes.string,
+  className: PropTypes.string
+}
