@@ -1,0 +1,3 @@
+@mixin smooth-transitions {
+  transition: all var(--transition-duration) var(--transition-timing-function);
+}
