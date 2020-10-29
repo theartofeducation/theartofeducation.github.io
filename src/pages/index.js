@@ -40,12 +40,12 @@ const IndexPage = () => {
               <footer>
                 <List orientation="right">
                   <ListItem>
-                    <ExternalLink url="https://github.com/theartofeducation/aoeu-react-components">
+                    <ExternalLink url="https://github.com/theartofeducation/react-component-library">
                       <Svg symbolId="github-icon" className="link-icon" />
                     </ExternalLink>
                   </ListItem>
                   <ListItem>
-                    <ExternalLink url="https://theartofeducation.github.io/aoeu-react-components">
+                    <ExternalLink url="https://theartofeducation.github.io/react-component-library">
                       <Svg symbolId="external-link-icon" className="link-icon" />
                     </ExternalLink>
                   </ListItem>
