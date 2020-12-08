@@ -2,6 +2,33 @@
 # yarn lockfile v1
 
 
+"@aoeu/external-link@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@aoeu/external-link/-/external-link-0.1.1.tgz#7d343e3e407ee08f7e4a7ac6e2ba4115ec123b06"
+  integrity sha512-lN8nMTqEsjP+7KZa6p4ey4+UlevLWlvuDyv0SNWqlB5DKsYdTwvgSH8HK++ilNIpiiEsd4APR7EXqjSoxl8c6w==
+
+"@aoeu/list@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@aoeu/list/-/list-0.1.1.tgz#55d499b9f88c8ea1f1e1835d4f98b2ec37430d30"
+  integrity sha512-3isPpwA/ezkSlifPg/MrF9CU9wNtL4FotVORTu72Ce5LG+jHkZ9uGk8x/UDA6H6AIB66IrA5HydnHgTkMiB/Ag==
+
+"@aoeu/logo-svgs@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@aoeu/logo-svgs/-/logo-svgs-0.1.1.tgz#7e5046140941f7b407c324aef75b03c1e2deb284"
+  integrity sha512-Wf7XJiELX/TNj/MoWyKXQMzqXnLniRtUn+l0BEs0Oospkk25Nw0FUcBeDLes9OYeNPzeQQWzqS4e1xOaQM4E0w==
+
+"@aoeu/logos@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@aoeu/logos/-/logos-0.1.1.tgz#a3585756247d1f8f9c90f2ee99c6c55dd4409dd0"
+  integrity sha512-juaQgUISaStZ7qRJcu3dt0QdvvI6ynyE245kE+kOH3h3bAufzhsactx5Izw0D+C0pJwj4Dm2IBn5Wmd4IuiRmA==
+  dependencies:
+    "@aoeu/logo-svgs" "^0.1.1"
+
+"@aoeu/sass-common@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@aoeu/sass-common/-/sass-common-0.1.1.tgz#64cf6aaf5834fd4997ed407c7e667d500f13763d"
+  integrity sha512-YeT7HWuoigghjbQ2hfxp8NKL3BfdAXYOcDwv72XFcMoRXrBb3GTk2PhFa5t/CZBJGiSkkH8xThCJskmhv3CLtA==
+
 "@ardatan/aggregate-error@0.0.6":
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/@ardatan/aggregate-error/-/aggregate-error-0.0.6.tgz#fe6924771ea40fc98dc7a7045c2e872dc8527609"
