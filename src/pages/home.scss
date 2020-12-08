@@ -1,4 +1,4 @@
-@import "../sass/modules/mixins";
+@import "~@aoeu/sass-common/modules/animations";
 
 .intro {
   margin: 3rem auto;
@@ -21,11 +21,23 @@ h2 {
 }
 
 .resource-list {
-  margin: 2rem;
+  display: grid;
+  grid-auto-flow: column;
+  margin: 2rem 0;
+  padding-bottom: 5rem;
 }
 
 .resource-card {
-  width: 20rem;
+  height: 100%;
+
+  header {
+    min-height: 3.125rem;
+  }
+
+  article {
+    flex: 1 1 auto;
+    font-weight: normal;
+  }
 
   .link-icon {
     color: var(--color-gray-light);
