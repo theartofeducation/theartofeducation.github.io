@@ -5,6 +5,10 @@
   "version": "0.0.1",
   "author": "The Art of Education University Software Engineering Team",
   "dependencies": {
+    "@aoeu/external-link": "^0.1.1",
+    "@aoeu/list": "^0.1.1",
+    "@aoeu/logos": "^0.1.1",
+    "@aoeu/sass-common": "^0.1.1",
     "@babel/eslint-parser": "^7.12.1",
     "@babel/eslint-plugin": "^7.12.1",
     "babel-preset-gatsby": "^0.5.14",

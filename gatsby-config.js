@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "The Art of Education University | Software Engineering",
     description: "A great education system depends on great software...",
-    author: "The Art of Education University Software Engineering Team",
+    author: "The Art of Education University Software Engineering Team"
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -10,8 +10,8 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: `${__dirname}/src/images`,
-      },
+        path: `${__dirname}/src/images`
+      }
     },
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
@@ -24,8 +24,9 @@ module.exports = {
         background_color: "#00b2dc",
         theme_color: "#00b2dc",
         display: "minimal-ui",
-        icon: "src/images/app-icons/aoeu-icon.png", // This path is relative to the root of the site.
-      },
+        // This path is relative to the root of the site.
+        icon: "src/images/app-icons/aoeu-icon.png"
+      }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
@@ -43,5 +44,5 @@ module.exports = {
         redirect: true
       }
     }
-  ],
+  ]
 }
